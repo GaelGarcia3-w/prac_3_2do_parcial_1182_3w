@@ -1,0 +1,26 @@
+#3- Guardar en un diccionario precios de las frutas en una matriz, luego preguntar al usuario por fruta. 
+precios_frutas = {
+    'manzana': 2.5,
+    'banana': 1.2,
+    'naranja': 3.0,
+    'fresa': 4.0,
+    'uva': 5.0
+}
+
+# Preguntar al usuario por la fruta y la cantidad de kilos
+fruta = input("Ingresa el nombre de la fruta: ").lower()
+print(" ")
+kilos = float(input("Ingresa la cantidad de kilos: "))
+print(" ")
+
+# Verificar si la fruta está en el diccionario
+if fruta in precios_frutas:
+    precio_kilo = precios_frutas[fruta]
+    total_precio = precio_kilo * kilos
+    print(" ")
+    print("El precio de", kilos ,"kilos de ",fruta, "es: $",total_precio)
+    print(" ")
+else:
+    print(" ")
+    print("La fruta", fruta, "no está en el diccionario.")
+    print(" ")
