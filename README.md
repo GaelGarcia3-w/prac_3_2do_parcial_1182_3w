@@ -138,7 +138,7 @@ precios_frutas = {
 }
 
 
-# Preguntar al usuario por la fruta y la cantidad de kilos
+#Preguntar al usuario por la fruta y la cantidad de kilos
 
 fruta = input("Ingresa el nombre de la fruta: ").lower()
 
@@ -148,7 +148,7 @@ kilos = float(input("Ingresa la cantidad de kilos: "))
 
 print(" ")
 
-# Verificar si la fruta está en el diccionario
+#Verificar si la fruta está en el diccionario
 
 if fruta in precios_frutas:
 
