@@ -1,0 +1,26 @@
+#2- Preguntar al usuario nombre, edad, dirección y teléfono y lo guarde en un diccionario.   
+#Te pide ingresar varios datos.
+Nom = str(input("Ingresa tu nombre :"))
+print(" ")
+Edad =int(input("Ingresa tu edad :"))
+print(" ")
+Direc= str (input("Ingresa tu direccion : "))
+print(" ")
+Num = int(input("Ingresa tu numero telefonico :"))
+print(" ")
+#Se guardan los datos agregados en un diccionario.
+D={
+    "Nombre" : [Nom], 
+    "Edad"  : [Edad],
+    "Direccion" :  [Direc] ,
+    "Numero telefonico" : [Num],
+}
+#Se imprime un mensaje con los datos agregados y guardados en el diccionario.
+print("Tu nombre es :" ,D ["Nombre"])
+print(" ")
+print("Tu edada es :",D["Edad"],"años")
+print(" ")
+print("Tu direccion es :",D["Direccion"])
+print(" ")
+print("Tu numero telefonico es :", D ["Numero telefonico"])
+print(" ")
