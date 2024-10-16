@@ -1,0 +1,30 @@
+print(" ")
+print("Edgar gael garcia camacho1182:prac_3")
+print(" ")
+#1- Guardar en una variable el diccionario {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}, El usuario debe meter una divisa y debe mostrar el símbolo o un mensaje de que la divisa no está en el diccionario.
+
+#El signo de los tipos de moneda guardados en un diccionario.
+diccionario={
+    "€" : "Euro",
+    "$" : "Dollar",
+     "¥":  "Yen",
+}
+#Te pide ingresar una divisa para saber si es valida o no
+lo=str(input("Ingresa una divisa :"))
+
+if lo == "$" :
+    print(" ")
+    print("Es Divisa valida")
+    print(" ")
+elif lo== "€":
+    print(" ")
+    print("Es una divisa valida")
+    print(" ")
+elif lo == "¥":
+    print(" ")
+    print("Es una divisa valida")
+    print(" ")
+else :
+    print(" ")
+    print("No es una divisa valida")
+    print(" ")
